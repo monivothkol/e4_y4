@@ -14,6 +14,8 @@
 .contact_form{width: 100%; margin-top: 16px; display: flex; flex-direction: column;}
 .contact_card{background: linear-gradient(#0C0057, #003B82); color: #FFFFFF; padding: 32px; max-width: 70%; border-radius: 16px;}
 .contact_wrapper{display: flex; align-items: center; column-gap: 16px; margin-top: 16px;}
-.contact_wrapper .icon_holder{width: 50px; height: 50px; background: #FFFFFF; padding: 8px; border-radius: 50px; margin-bottom: auto;}
+.contact_wrapper .icon_holder{width: 50px; height: 50px; display: flex; align-items: center; justify-content: center; background: #FFFFFF; padding: 8px; border-radius: 50px; margin-bottom: auto;}
+.contact_wrapper .icon_holder img{height: calc(100% - 10px) !important;}
 .contact_wrapper .contact_info{flex: 1;}
+.contact_wrapper .contact_info .title{font-weight: bold; margin-bottom: 8px;}
 /* End of  Contact form */
