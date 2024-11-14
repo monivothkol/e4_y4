@@ -4,7 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/global.css">
-    <title>Document</title>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+    emailjs.init({
+        publicKey: "qdVzVhYy_DXlhLw2k",
+    });
+    })();
+</script>
+<script src="/src/script/emailjs.js"></script>
+    <title>Virtual Tech</title>
 </head>
 <body>
     <nav>
@@ -31,14 +42,14 @@
                 <h1 class="sec_title">Do you have any question?</h1>
                 <form action="" class="contact_form gap_16">
                     <div class="flex gap_16">
-                        <input type="text" name="" id="" placeholder="Enter your name">
-                        <input type="tel" name="" id="" placeholder="Enter your phone number">
+                        <input type="text" name="" id="sender_name" placeholder="Enter your name">
+                        <input type="tel" name="" id="sender_phone" placeholder="Enter your phone number">
                     </div>
-                    <input type="email" name="" id="" placeholder="Enter your email">
-                    <input type="text" name="" id="" placeholder="Enter your subject">
-                    <textarea name="" id="" placeholder="Enter your message"></textarea>
+                    <input type="email" name="" id="sender_email" placeholder="Enter your email">
+                    <input type="text" name="" id="sender_subject" placeholder="Enter your subject">
+                    <textarea name="" id="sender_message" placeholder="Enter your message"></textarea>
                 </form>
-                <button type="button" class="btn01 mt_16">SEND</button>
+                <button type="button" class="btn01 mt_16" onclick="sendMail()">SEND</button>
             </div>
             <div class="col">
                 <div class="contact_card">
