@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     </div>
                 </div>
                 <a href="about-us.html" class="nav-text">About Us</a>
-                <a href="contact.html" class="nav-text">Contact</a>
+                <a href="/src/html/contact.html" class="nav-text">Contact</a>
             </nav>
             <div class="header-icons">
                 <a href="cart.html" class="cart-icon-parent"><svg xmlns="http://www.w3.org/2000/svg" class="cart-icon" viewBox="0 0 16 16">
