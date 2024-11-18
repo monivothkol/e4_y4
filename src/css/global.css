@@ -257,8 +257,9 @@ body {
 }
 
 .logo-container {
-    margin-left: 50px;
+    margin-left: 0;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -374,7 +375,14 @@ body {
 
 .social-icons {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
+    transition: opacity 0.3s ease;
+}
+
+.social-icons a:hover {
+    opacity: 0.5;
 }
 
 .icon {
