@@ -165,6 +165,8 @@ body {
 /* Achievement Section */
 
 .achievement-section {
+    font-size: 0.8em;
+    text-align: start;
     padding: 2rem 1rem;
     background-color: #E9ECEF;
 }
@@ -177,13 +179,30 @@ body {
 }
 
 .achievement {
-    flex: 1 1 300px;
-    text-align: center;
     background-color: #013a73;
     color: white;
     padding: 20px;
     width: 250px;
     border-radius: 10px;
+}
+
+.achievement-container .achievement .ach-card {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.achievement-container .achievement p {
+    text-align: center !important;
+}
+
+.achievement-container .achievement .ach-card p {
+    font-size: 0.7em;
+}
+
+.achievement-container .achievement .ach-card h4 {
+    text-align: start !important;
 }
 
 
