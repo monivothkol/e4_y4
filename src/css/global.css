@@ -154,7 +154,7 @@ textarea {
 /* end of user input style */
 
 
-/* header and footer style */
+/* Start Header and Footer styles */
 
 * {
     margin: 0;
@@ -165,6 +165,12 @@ textarea {
 body {
     font-family: Arial, sans-serif;
 }
+
+
+/* Header and Footer styles */
+
+
+/* Sign-in styles */
 
 .sign-in {
     overflow: hidden;
@@ -317,10 +323,6 @@ body {
     background-color: cyan;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
 .header-icons {
     display: flex;
     align-items: center;
@@ -395,3 +397,99 @@ body {
 .footer-bottom a:hover {
     color: #fff;
 }
+
+
+/* Responsive styles */
+
+
+/* For small screens (mobile devices) */
+
+@media (max-width: 768px) {
+    .sticky-header {
+        flex-direction: column;
+        padding: 1rem 2rem;
+        text-align: center;
+    }
+    .logo-container {
+        margin: 0;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+    .navbar {
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+    .dropdown-content {
+        position: relative;
+        box-shadow: none;
+        opacity: 1;
+        transform: none;
+    }
+    .header-icons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-section {
+        max-width: none;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .footer-bottom {
+        margin-top: 2rem;
+    }
+    .footer-section h3 {
+        font-size: 18px;
+    }
+    .logo {
+        height: 50px;
+    }
+    .navbar .nav-text {
+        font-size: 16px;
+    }
+    .cart-icon {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+
+/* For extra small screens (smaller phones) */
+
+@media (max-width: 480px) {
+    .logo {
+        height: 40px;
+    }
+    .navbar .nav-text {
+        font-size: 14px;
+    }
+    .sign-in {
+        font-size: 14px;
+    }
+    .footer {
+        padding: 20px;
+    }
+    .footer-container {
+        flex-direction: column;
+    }
+    .footer-section {
+        max-width: none;
+        margin-bottom: 1.5rem;
+    }
+    .footer-section p {
+        font-size: 12px;
+    }
+    .footer-bottom a {
+        font-size: 12px;
+    }
+    .footer-bottom {
+        margin-top: 1rem;
+    }
+}
+
+
+/* End Header and Footer styles */

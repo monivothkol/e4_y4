@@ -74,10 +74,9 @@ document.addEventListener("DOMContentLoaded", function() {
         </div>
         <div class="footer-section company">
           <h3>Company</h3>
-          <p class="clickable">About Us</p>
-          <p class="clickable">Careers</p>
-          <p class="clickable">FAQs</p>
-          <p class="clickable">Teams</p>
+          <p class="clickable">Our Company</p>
+          <p class="clickable">Our Partner</p>
+          <p class="clickable">Our Client</p>
           <p class="clickable">Contact Us</p>
         </div>
       </div>
