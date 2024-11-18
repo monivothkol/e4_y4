@@ -39,7 +39,8 @@ body {
 .header {
     text-align: center;
     padding: 2rem 1rem;
-    background-color: #151b23;
+    background: url(../assets/contactBanner.png) no-repeat center;
+    background-size: 100% 100%;
     color: #fff;
 }
 
