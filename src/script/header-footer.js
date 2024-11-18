@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const headerHTML = `
         <header class="sticky-header">
             <div class="logo-container">
-                <a href="index.html"><img src="../assets/logo.png" alt="Logo" class="logo"></a>
+                <a href="index.html"><img src="/src/assets/logo.png" alt="Logo" class="logo"></a>
             </div>
             <nav class="navbar">
                 <a href="index.html" class="nav-text">Home</a>
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <footer class="footer">
       <div class="footer-container">
         <div class="footer-section logo-section">
-          <a href="index.html"><img src="../assets/logo.png" alt="Logo" class="logo"></a>
+          <a href="index.html"><img src="/src/assets/logo.png" alt="Logo" class="logo"></a>
           <p>High level experience in web design and development knowledge, producing quality work.</p>
           <p>&copy; 2024 All Rights Reserved</p>
         </div>
