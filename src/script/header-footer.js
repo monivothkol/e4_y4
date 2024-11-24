@@ -1,37 +1,44 @@
 document.addEventListener("DOMContentLoaded", function() {
     const headerHTML = `
-        <header class="sticky-header">
-            <div class="logo-container">
-                <a href="index.html"><img src="/src/assets/logo.png" alt="Logo" class="logo"></a>
+    <header class="sticky-header">
+        <div class="logo-container">
+            <a href="index.html"><img src="/src/assets/logo.png" alt="Logo" class="logo"></a>
+        </div>
+        <nav class="navbar">
+            <a href="/index.html" class="nav-text">Home</a>
+            <div class="dropdown">
+                <a href="#" class="nav-text dropbtn">Products</a>
+                <div class="dropdown-content">
+                    <a href="/src/html/product_network.html">Network</a>
+                    <a href="/src/html/product_storage.html">Storage</a>
+                    <a href="/src/html/product_electronic.html">Computers</a>
+                </div>
             </div>
-            <nav class="navbar">
-                <a href="/index.html" class="nav-text">Home</a>
-                <div class="dropdown">
-                    <a href="#" class="nav-text dropbtn">Products</a>
-                    <div class="dropdown-content">
-                        <a href="/src/html/product_network.html">Network</a>
-                        <a href="/src/html/product_storage.html">Storage</a>
-                        <a href="/src/html/product_electronic.html">Computers</a>
-                    </div>
+            <div class="dropdown">
+                <a href="services.html" class="nav-text dropbtn">Services</a>
+                <div class="dropdown-content">
+                    <a href="personal-use.html">Personal Use</a>
+                    <a href="small-business.html">Small Business</a>
+                    <a href="enterprise.html">Enterprise</a>
                 </div>
-                <div class="dropdown">
-                    <a href="services.html" class="nav-text dropbtn">Services</a>
-                    <div class="dropdown-content">
-                        <a href="personal-use.html">Personal Use</a>
-                        <a href="small-business.html">Small Business</a>
-                        <a href="enterprise.html">Enterprise</a>
-                    </div>
-                </div>
-                <a href="about-us.html" class="nav-text">About Us</a>
-                <a href="/src/html/contact.html" class="nav-text">Contact</a>
-            </nav>
+            </div>
+            <a href="about-us.html" class="nav-text">About Us</a>
+            <a href="/src/html/contact.html" class="nav-text">Contact</a>
+        </nav>
+        <div class="header-icons">
             <div class="header-icons">
                 <a href="cart.html" class="cart-icon-parent"><svg xmlns="http://www.w3.org/2000/svg" class="cart-icon" viewBox="0 0 16 16">
-  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
-</svg></a>
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                  </svg>
+                </a>
                 <a href="sign-in.html" class="sign-in" data-replace="Sign In"><span>Sign In</span></a>
             </div>
-        </header>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    </header>
     `;
 
     const footerHTML = `
