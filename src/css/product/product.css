@@ -4,8 +4,8 @@
 
 /* import other css file */
 
-@import url("./hero.css");
-@import url("./product_detail.css");
+@import url("/src/css/product/hero.css");
+@import url("/src/css/product/product_detail.css");
 :root {
     /* css variable */
     --clr-blue-light: #35b5ff;
