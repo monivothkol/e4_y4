@@ -7,11 +7,11 @@ document.addEventListener("DOMContentLoaded", function() {
             <nav class="navbar">
                 <a href="/index.html" class="nav-text">Home</a>
                 <div class="dropdown">
-                    <a href="products.html" class="nav-text dropbtn">Products</a>
+                    <a href="#" class="nav-text dropbtn">Products</a>
                     <div class="dropdown-content">
-                        <a href="network-devices.html">Network</a>
-                        <a href="storage-devices.html">Storage</a>
-                        <a href="computers.html">Computers</a>
+                        <a href="/src/html/product_network.html">Network</a>
+                        <a href="/src/html/product_storage.html">Storage</a>
+                        <a href="/src/html/product_electronic.html">Computers</a>
                     </div>
                 </div>
                 <div class="dropdown">
