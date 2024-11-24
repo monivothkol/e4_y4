@@ -1,0 +1,45 @@
+.hero {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 40%;
+}
+
+.hero--image {
+    width: 100%;
+    position: relative;
+}
+
+.hero--text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    color: var(--clr-white-light);
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    height: 100%;
+    padding: 0 25%;
+}
+
+.hero--text h1 {
+    font-size: var(--fs-700);
+}
+
+.hero--btn-contact {
+    padding: 0.5rem 1rem;
+    color: white;
+    border-radius: 1rem;
+    background-image: linear-gradient(#35b5ff, #1073e5);
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.hero--btn-contact:hover {
+    position: relative;
+    scale: 1.05;
+}

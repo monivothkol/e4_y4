@@ -1,0 +1,270 @@
+/* import fonts: Roboto */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* import other css file */
+
+@import url("./hero.css");
+@import url("./product_detail.css");
+:root {
+    /* css variable */
+    --clr-blue-light: #35b5ff;
+    --clr-blue-primary: #0e67cb;
+    --clr-white-light: #f4f4f4;
+    --clr-gray-light: rgb(219, 219, 219);
+    --clr-gray: rgb(155, 155, 155);
+    --clr-gray-medium: rgb(173, 173, 173);
+    --ff-primary: "Roboto", sans-serif;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-bold: 700;
+    --fs-300: 0.8125rem;
+    /* 13px */
+    --fs-400: 0.875rem;
+    /* 14px */
+    --fs-500: 0.9375rem;
+    /* 15px */
+    --fs-600: 1rem;
+    /* 16px */
+    --fs-700: 1.875rem;
+    /* 30px */
+    --fs-800: 2.5rem;
+    /* 40px */
+    --fs-900: 3.5rem;
+    /* 56px */
+    --fs-body: var(--fs-600);
+    --fs-primary-heading: var(--fs-800);
+    --fs-secondary-heading: var(--fs-700);
+    --fs-nav: var(--fs-500);
+    --fs-button: var(--fs-300);
+}
+
+
+/* css reset */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Set core root defaults */
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+
+/* Change Default Font-size */
+
+
+/* html {
+  font-size: 16px;
+} */
+
+html,
+body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: var(--ff-primary);
+}
+
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+
+ul[role="list"],
+ol[role="list"] {
+    list-style: none;
+}
+
+img,
+picture,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+    /* change font all heading */
+    /* font-family: var(--ff-heading); */
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (max-width: 599px) {
+    .nav--bar {
+        padding: 0 0.5rem;
+    }
+    .nav--menu {
+        display: none;
+    }
+    /* --------Hero----- */
+    .hero--text h1 {
+        font-size: 1.2rem;
+    }
+    .hero--text {
+        width: 100%;
+        gap: 0.5rem;
+        padding: 8%;
+    }
+    .hero--image {
+        height: 100%;
+        object-fit: cover;
+    }
+    /* -----Product detail ----*/
+    .other--product {
+        display: flex;
+        flex-direction: column;
+    }
+    .product--detail {
+        gap: 0.6rem;
+        padding: 1rem 1rem;
+    }
+    .product--selected {
+        flex-direction: column;
+    }
+    /*------- Footer----- */
+    .footer {
+        padding: 1rem 1.5rem;
+    }
+    .footer--detail {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 2.2rem;
+    }
+    .link--list {
+        text-align: center;
+        align-items: center;
+    }
+    .copy--right {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .follow--us {
+        align-items: center;
+    }
+    .call--us {
+        text-align: center;
+    }
+    .lists {
+        flex-direction: row;
+        gap: 1rem;
+    }
+    .footer--policy {
+        justify-content: center;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+    /* ---Navbar---- */
+    .nav--menu {
+        display: none;
+    }
+    /* --------Hero----- */
+    .hero--text h1 {
+        font-size: 1.2rem;
+    }
+    .hero--text {
+        width: 100%;
+        gap: 0.5rem;
+        padding: 8%;
+    }
+    .hero--image {
+        height: 100%;
+        object-fit: cover;
+    }
+    /* -----Product-detail---- */
+    .product--detail {
+        gap: 0.6rem;
+        padding: 1rem 4rem;
+    }
+    .product--selected {
+        flex-direction: column;
+    }
+    .other--product {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .product--title {
+        width: 100%;
+    }
+    html {
+        font-size: 15px;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* --------Hero----- */
+    .hero--text h1 {
+        font-size: 1.2rem;
+    }
+    .hero--text {
+        width: 100%;
+        gap: 0.5rem;
+        padding: 8%;
+    }
+    .hero--image {
+        height: 100%;
+        object-fit: cover;
+    }
+    .product--selected {
+        flex-direction: column;
+    }
+    .other--product {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .product--title {
+        width: 60%;
+    }
+}
