@@ -15,14 +15,21 @@ document.addEventListener("DOMContentLoaded", function() {
                 </div>
             </div>
             <div class="dropdown">
-                <a href="services.html" class="nav-text dropbtn">Services</a>
+                <a href="#" class="nav-text dropbtn">Services</a>
                 <div class="dropdown-content">
                     <a href="personal-use.html">Personal Use</a>
                     <a href="small-business.html">Small Business</a>
                     <a href="enterprise.html">Enterprise</a>
                 </div>
             </div>
-            <a href="about-us.html" class="nav-text">About Us</a>
+            <div class="dropdown">
+                <a href="#" class="nav-text">About Us</a>
+                <div class="dropdown-content">
+                    <a href="our-company.html">Our Company</a>
+                    <a href="our-partners.html">Our Partners</a>
+                    <a href="our-clients.html">Our Clients</a>
+                </div>
+            </div>
             <a href="/src/html/contact.html" class="nav-text">Contact</a>
         </nav>
         <div class="header-icons">
