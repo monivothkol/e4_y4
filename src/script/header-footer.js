@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="dropdown">
                 <a href="#" class="nav-text dropbtn">Products</a>
                 <div class="dropdown-content">
-                    <a href="/src/html/product_network.html">Network</a>
-                    <a href="/src/html/product_storage.html">Storage</a>
-                    <a href="/src/html/product_electronic.html">Computers</a>
+                    <a href="/src/html/Networking.html">Network</a>
+                    <a href="/src/html/Storage.html">Storage</a>
+                    <a href="/src/html/Electronic.html">Computers</a>
                 </div>
             </div>
             <div class="dropdown">
