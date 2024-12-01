@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="dropdown">
                 <a href="#" class="nav-text">About Us</a>
                 <div class="dropdown-content">
-                    <a href="our-company.html">Our Company</a>
+                    <a href="/src/html/about.html">Our Company</a>
                     <a href="/src/html/partner.html">Our Partners</a>
                     <a href="/src/html/client.html">Our Clients</a>
                 </div>
