@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const headerHTML = `
     <header class="sticky-header">
         <div class="logo-container">
-            <a href="../../index.html"><img src="../../src/assets/logo.png" alt="Logo" class="logo"></a>
+            <a href="src/index.html"><img src="../../src/assets/logo.png" alt="Logo" class="logo"></a>
         </div>
         <nav class="navbar">
             <a href="../../src/index.html" class="nav-text">Home</a>
