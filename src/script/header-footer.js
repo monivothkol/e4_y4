@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <a href="index.html"><img src="../src/assets/logo.png" alt="Logo" class="logo"></a>
         </div>
         <nav class="navbar">
-            <a href="../index.html" class="nav-text">Home</a>
+            <a href="../src/index.html" class="nav-text">Home</a>
             <div class="dropdown">
                 <a href="#" class="nav-text dropbtn">Products</a>
                 <div class="dropdown-content">
