@@ -1,7 +1,7 @@
 .about-section {
     padding: 40px;
     text-align: center;
-    background-image: url("https://s3-alpha-sig.figma.com/img/9cc4/6f7c/558bdca5f1398cf92d05253757330450?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bgFUS6-G9JsZ9MEd7ur8eBAGJOcfG-wIIVqjnWKpx-s1LJhZT4bUqcvGIX~HUGMkkMkHD0JgzH2-KGgomZ8xj1dc5yM23ehklvRdcBQIbF0Ih~cyAqT47LZp9S2f1jGe0R~~vG3t6F9yjRYF32pwbxACnKLCnP8UgxXxxjeB11k3Vqn0DLNjvGlUfy4vr-3vxNs5jaCOADoZwtqk6YEi0xAo5W1lIbVOM0iEs87vW6duRD5eMS3aKQSUM9A-3u0pPRPxgXW926rWepEmTRFjMM5DZLPi3HZ~gahsh7uaDBudTCLV9VCaA8cM8T6uMPuKdDIjA1KH5SE7yK7UYvd85g__");
+    background-image: url("/src/assets/product_images/background.png");
     color: white;
 }
 
