@@ -9,15 +9,15 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="dropdown">
                 <a href="#" class="nav-text dropbtn">Products</a>
                 <div class="dropdown-content">
-                    <a href="../html/Networking.html">Network</a>
-                    <a href="../html/Storage.html">Storage</a>
-                    <a href="../html/Electronic.html">Computers</a>
+                    <a href="/src/html/Networking.html">Network</a>
+                    <a href="/src/html/Storage.html">Storage</a>
+                    <a href="/src/html/Electronic.html">Computers</a>
                 </div>
             </div>
             <div class="dropdown">
                 <a href="#" class="nav-text dropbtn">Services</a>
                 <div class="dropdown-content">
-                    <a href="../html/personal_service.html">Personal Use</a>
+                    <a href="/src/html/personal_service.html">Personal Use</a>
                     <a href="small-business.html">Small Business</a>
                     <a href="enterprise.html">Enterprise</a>
                 </div>
@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="dropdown">
                 <a href="#" class="nav-text">About Us</a>
                 <div class="dropdown-content">
-                    <a href="../html/about.html">Our Company</a>
-                    <a href="../html/partner.html">Our Partners</a>
-                    <a href="../html/client.html">Our Clients</a>
+                    <a href="/src/html/about.html">Our Company</a>
+                    <a href="/src/html/partner.html">Our Partners</a>
+                    <a href="/src/html/client.html">Our Clients</a>
                 </div>
             </div>
             <a href="/src/html/contact.html" class="nav-text">Contact</a>
