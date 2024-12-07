@@ -1,7 +1,7 @@
 var path_logo = "../assets/images/logo.png"
 var link = {
   home : "../index.html",
-  network : "/src/html/networking.html",
+  network : "e4_y4/src/html/networking.html",
   storage : "/src/html/Storage.html",
   personalUse : "/src/html/personal_service.html",
   smallBusiness : "",
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="dropdown">
                 <a href="#" class="nav-text dropbtn">Products</a>
                 <div class="dropdown-content">
-                    <a href="e4_y4/${link.network}">Network</a>
+                    <a href="${link.network}">Network</a>
                     <a href="${link.storage}">Storage</a>
                     <a href="/src/html/Electronic.html">Computers</a>
                 </div>
