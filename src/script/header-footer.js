@@ -3,7 +3,6 @@ var link_home = {
   home : "../index.html",
   network : "../html/Networking.html",
   storage : "../html/Storage.html",
-  // computer : "../html/Networking.html",
   personalUse : "../html/personal_service.html",
   smallBusiness : "",
   enterprise : "",
@@ -12,8 +11,6 @@ var link_home = {
   ourClient : "../html/client.html",
   contact : "../html/contact.html",
 }
-// import "../html/Networking.html"
-// import "../assets/images/logo.png"
 
 document.addEventListener("DOMContentLoaded", function() {
     const headerHTML = `
@@ -22,12 +19,12 @@ document.addEventListener("DOMContentLoaded", function() {
             <a href="index.html"><img src="/src/assets/logo.png" alt="Logo" class="logo"></a>
         </div>
         <nav class="navbar">
-            <a href="e4_y4/${link_home.home}" class="nav-text">Home</a>
+            <a href="${link_home.home}" class="nav-text">Home</a>
             <div class="dropdown">
                 <a href="#" class="nav-text dropbtn">Products</a>
                 <div class="dropdown-content">
-                    <a href="e4_y4/${link_home.networking}">Network</a>
-                    <a href="e4_y4/${link_home.storage}">Storage</a>
+                    <a href="${link_home.networking}">Network</a>
+                    <a href="${link_home.storage}">Storage</a>
                     <a href="/src/html/Electronic.html">Computers</a>
                 </div>
             </div>
