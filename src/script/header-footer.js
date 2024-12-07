@@ -1,7 +1,7 @@
 var path_logo = "../assets/images/logo.png"
 var link = {
   home : "../index.html",
-  network : "../html/Networking.html",
+  network : "../html/networking.html",
   storage : "../html/Storage.html",
   personalUse : "../html/personal_service.html",
   smallBusiness : "",
