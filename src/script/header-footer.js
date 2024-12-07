@@ -1,5 +1,5 @@
 var path_logo = "../assets/images/logo.png"
-var link_home = {
+var link = {
   home : "../index.html",
   network : "../html/Networking.html",
   storage : "../html/Storage.html",
@@ -19,12 +19,12 @@ document.addEventListener("DOMContentLoaded", function() {
             <a href="index.html"><img src="/src/assets/logo.png" alt="Logo" class="logo"></a>
         </div>
         <nav class="navbar">
-            <a href="${link_home.home}" class="nav-text">Home</a>
+            <a href="${link.home}" class="nav-text">Home</a>
             <div class="dropdown">
                 <a href="#" class="nav-text dropbtn">Products</a>
                 <div class="dropdown-content">
-                    <a href="${link_home.networking}">Network</a>
-                    <a href="${link_home.storage}">Storage</a>
+                    <a href="${link.networking}">Network</a>
+                    <a href="${link.storage}">Storage</a>
                     <a href="/src/html/Electronic.html">Computers</a>
                 </div>
             </div>
