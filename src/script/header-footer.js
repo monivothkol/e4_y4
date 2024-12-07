@@ -1,7 +1,7 @@
 var path_logo = "../assets/images/logo.png"
 var link = {
   home : "/index.html",
-  network : "/src/html/networking.html",
+  network : "https://monivothkol.github.io/e4_y4/src/html/networking.html",
   storage : "/src/html/Storage.html",
   personalUse : "/src/html/personal_service.html",
   smallBusiness : "",
