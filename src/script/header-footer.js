@@ -1,15 +1,15 @@
 var path_logo = "../assets/images/logo.png"
 var link = {
   home : "../index.html",
-  network : "../html/networking.html",
-  storage : "../html/Storage.html",
-  personalUse : "../html/personal_service.html",
+  network : "/src/html/networking.html",
+  storage : "/src/html/Storage.html",
+  personalUse : "/src/html/personal_service.html",
   smallBusiness : "",
   enterprise : "",
   ourCompany : "",
-  ourPartner : "../html/partner.html",
-  ourClient : "../html/client.html",
-  contact : "../html/contact.html",
+  ourPartner : "./src/html/partner.html",
+  ourClient : "./src/html/client.html",
+  contact : "./src/html/contact.html",
 }
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="dropdown">
                 <a href="#" class="nav-text dropbtn">Products</a>
                 <div class="dropdown-content">
-                    <a href="${link.networking}">Network</a>
+                    <a href="${link.network}">Network</a>
                     <a href="${link.storage}">Storage</a>
                     <a href="/src/html/Electronic.html">Computers</a>
                 </div>
