@@ -292,6 +292,9 @@ body {
     object-fit: cover;
 }
 
+.testimonial-text{
+    text-align: left;
+}
 
 /* Footer */
 
