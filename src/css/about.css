@@ -1,8 +1,14 @@
+.full-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
 .container {
     /* height: 629px;*/
     background-color: rgba(6, 22, 34, 1);
-    padding: 90px;
-    max-width: 1440px;
     display: flex;
     align-items: center;
 }
