@@ -1,7 +1,8 @@
-/* Header and Footer styles */
-
-
-/* Sign-in styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 .cart-icon {
     fill: white;
