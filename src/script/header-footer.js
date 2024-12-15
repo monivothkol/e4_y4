@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 </div>
             </div>
             <div class="dropdown">
-                <a href="#" class="nav-text dropbtn">Services</a>
+                <a href="/src/html/service_detail.html" class="nav-text dropbtn">Services</a>
                 <div class="dropdown-content">
                     <a href="/src/html/personal_service.html">Personal Use</a>
                     <a href="/src/html/Service_for_Small_Business.html">Small Business</a>
