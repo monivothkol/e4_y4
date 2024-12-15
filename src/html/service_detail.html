@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/service_detail.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Empowering Networks with Reliable Solutions</h1>
+        <p>We provide state-of-the-art networking solutions tailored to Personal, small businesses, and enterprises.</p>
+        <button onclick="contactUs()">Contact Us</button>
+    </header>
+
+    <section class="options">
+        <div class="option-card" onclick="showDetails('personal')">
+            <img src="../../src/assets/persol.jpg" alt="Personal Solutions">
+            <h3>Personal</h3>
+            <p>Services such as device installation, basic troubleshooting and network configuration for each user for Personal Business</p>
+            <h4>Benefit</h4>
+            <ul>
+                <li>Seamless home networking setup.</li>
+                <li>Enhanced device security for personal data.</li>
+                <li>Optimized internet performance.</li>
+            </ul>
+        </div>
+        <div class="option-card" onclick="showDetails('small-business')">
+            <img src="../../src/assets/small.jpg" alt="Small Business Solutions">
+            <h3>Small Business</h3>
+            <p>Affordable solutions such as setting up a small office network, integrating cloud storage and security enhancements to help businesses grow.</p>
+            <h4>Benefit</h4>
+            <ul>
+                <li>Reliable office network setup.</li>
+                <li>Secure and scalable cloud storage.</li>
+                <li>Advanced data protection measures.</li>
+            </ul>
+        </div>
+        <div class="option-card" onclick="showDetails('enterprise')">
+            <img src="../../src/assets/en.jpg" alt="Enterprise Solutions">
+            <h3>Enterprise</h3>
+            <p>Advanced services such as enterprise-class network design, data center management, and IT infrastructure as needed for large organizations.</p>
+            <h4>Benefit</h4>
+            <ul>
+                <li>Scalable enterprise network design.</li>
+                <li>Efficient data center management.</li>
+                <li>Comprehensive IT infrastructure solutions.</li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section class="services hidden" id="personal">
+        <h2>Personal Solutions</h2>
+        <p>Our personal solutions include home networking, device security, and internet optimization tailored to individual users.</p>
+    </section>
+
+    <section class="services hidden" id="small-business">
+        <h2>Small Business Solutions</h2>
+        <p>Our small business services provide network setup, data security, and backup solutions to ensure seamless operations.</p>
+    </section>
+
+    <section class="services hidden" id="enterprise">
+        <h2>Enterprise Solutions</h2>
+        <p>Our enterprise solutions include scalable infrastructure, advanced security, and cloud integrations to meet corporate needs.</p>
+    </section>
+
+    <section class="consultation">
+        <h2>Request a Consultation</h2>
+        <form>
+            <div class="input-group">
+                <input type="text" placeholder="Enter your name" required>
+                <input type="tel" placeholder="Enter your phone number" required>
+            </div>
+            <input type="email" placeholder="Enter your email" required>
+            <input type="text" placeholder="Enter your function" required>
+            <textarea placeholder="Enter your message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <!-- footer here -->
+    <script src="../script/header-footer.js"></script>
+    <script src="../script/navbar.js"></script>
+</body>
+
+</html>
