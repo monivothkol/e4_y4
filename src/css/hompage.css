@@ -213,7 +213,7 @@ body {
 }
 
 .achievement-container .achievement .ach-card h4 {
-    text-align: start !important;
+    text-align: center !important;
 }
 
 
@@ -292,9 +292,10 @@ body {
     object-fit: cover;
 }
 
-.testimonial-text{
+.testimonial-text {
     text-align: left;
 }
+
 
 /* Footer */
 
