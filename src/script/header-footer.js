@@ -25,15 +25,15 @@ document.addEventListener("DOMContentLoaded", function() {
                 <div class="dropdown-content">
                     <a href="${link.network}">Network</a>
                     <a href="${link.storage}">Storage</a>
-                    <a href="/src/html/Electronic.html">Computers</a>
+                    <a href="/src/html/Electronic.html">Electronic</a>
                 </div>
             </div>
             <div class="dropdown">
                 <a href="#" class="nav-text dropbtn">Services</a>
                 <div class="dropdown-content">
                     <a href="/src/html/personal_service.html">Personal Use</a>
-                    <a href="small-business.html">Small Business</a>
-                    <a href="enterprise.html">Enterprise</a>
+                    <a href="/src/html/Service_for_Small_Business.html">Small Business</a>
+                    <a href="/src/html/Service_for_Enterprise.html">Enterprise</a>
                 </div>
             </div>
             <div class="dropdown">

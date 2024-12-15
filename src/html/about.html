@@ -31,21 +31,23 @@
             <p><span class="bold">VITAUL TECH</span> provides dependable networking products with expert support, competitive prices, and a focus on meeting both business and personal needs. We're committed to delivering quality and ensuring your satisfaction
                 every step of the way</p>
         </section>
-        <section class="pic-section">
-            <div class="pic">
-                <img src="../assets/about/pic2.png" alt="">
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+                <div class="slide">
+                    <img src="../assets/about/pic2.png" alt="Image 1">
+                </div>
+                <div class="slide">
+                    <img src="../assets/about/pic3.png" alt="Image 2">
+                </div>
+                <div class="slide">
+                    <img src="../assets/about/pic4.png" alt="Image 3">
+                </div>
+                <div class="slide">
+                    <img src="../assets/about/pic5.png" alt="Image 4">
+                </div>
             </div>
-            <div class="pic">
-                <img src="../assets/about/pic3.png" alt="">
-            </div>
-            <div class="pic">
-                <img src="../assets/about/pic4.png" alt="">
-            </div>
-            <div class="pic">
-                <img src="../assets/about/pic5.png" alt="">
-            </div>
-
-        </section>
+        </div>
+        
         <!-- Core Values -->
         <section class="core-section">
             <h2>Our Core Value</h2>
@@ -133,7 +135,7 @@
             </div>
         </section>
         <section class="Achivement-section">
-            <h2>Our Achivment</h2>
+            <h2>Our Achievement</h2>
             <div class="achievements">
                 <div class="card">
                     <div class="card-top">
@@ -164,9 +166,7 @@
                         <img src="../assets/about/award3.jpg" alt="Award Image" class="award-image">
                         <div class="sub-title">
                             <h3>IT Product Sales</h3>
-                            <p class="year">
-                                Exceeding $100 Million in Annual Sales of 2022-2023
-                            </p>
+                            <p class="year">Exceeding $100 Million in Annual Sales of 2022-2023</p>
                         </div>
                     </div>
                     <p class="description">
@@ -179,7 +179,6 @@
                         <div class="sub-title">
                             <h3>Strategic Partnerships</h3>
                             <p class="year">Expanding Global Market Reach of 2023-2024</p>
-
                         </div>
                     </div>
                     <p class="description">
@@ -187,7 +186,7 @@
                     </p>
                 </div>
             </div>
-        </section>
+        </section>        
         <section class="Customer-testimonails">
             <h2>Customer-testimonails</h2>
             <div class="testimonials">
@@ -209,7 +208,7 @@
                         <img src="../assets/about/customer2.jpg" alt="Mark Zuckerberg" class="profile-image">
                         <div class="sub-title">
                             <h4>Mr. Daniel R</h4>
-                            <p class="title">Operations Director at Finance Secure</p>
+                            <p class="title">OD at Finance Secure</p>
                         </div>
                     </div>
                     <p class="testimonial-text">
@@ -235,6 +234,18 @@
     </div>
     <script src="../script/header-footer.js"></script>
     <script src="../script/navbar.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const carousel = document.querySelector('.carousel');
+            const slides = document.querySelectorAll('.slide');
+    
+            const slideCount = slides.length;
+            for (let i = 0; i < slideCount; i++) {
+                const clone = slides[i].cloneNode(true);
+                carousel.appendChild(clone);
+            }
+        });        
+    </script>
 </body>
 
 </html>
